@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import '../App.css';
-import { Blundgeon, CeValuate, GemScape, GroundWard, PowerHouse, SpaceMerchant, STPC, UE2DCollisionTool } from '../components/Project';
+import { Blundgeon, CeValuate, GemScape, GroundWard, PowerHouse, SpaceMerchant, STPC, UE2DCollisionTool } from '../components/Projects';
 import { Objective } from '../components/Objective';
 import { Button, Stack, Typography } from '@mui/material';
 

@@ -1,5 +1,5 @@
 import '../App.css';
-import { SpaceMerchant, PowerHouse, STPC, Blundgeon, CeValuate, GroundWard, UE2DCollisionTool, GemScape, WaveBreaker } from '../components/Project';
+import { SpaceMerchant, PowerHouse, STPC, Blundgeon, CeValuate, GroundWard, UE2DCollisionTool, GemScape, WaveBreaker } from '../components/Projects';
 import { Stack } from '@mui/material';
 
 
