@@ -1,5 +1,4 @@
 import { Container, Stack } from "@mui/material";
-import { useNavigate } from 'react-router-dom';
 import { theme } from "./Theming";
 
 
@@ -9,7 +8,6 @@ export interface FeaturesProps {
 
 
 export function Features(props: FeaturesProps) {
-  const navigate = useNavigate();
 
   const CreateFeaturesList = props.features.map(feature => {
     return (

@@ -2,10 +2,7 @@ import React from 'react';
 import './App.css';
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Home from "./pages/Home";
-import Boards from "./pages/Boards";
-import SIP from "./pages/SIP";
 import About from "./pages/About";
-// eslint-disable-next-line import/no-webpack-loader-syntax
 import { AppBar, Box, Button, Container, ThemeProvider, Toolbar, Typography } from '@mui/material';
 import { theme } from "./components/Theming"
 import ADLogo from "./assets/AidanDavidsonLogo3.png"
@@ -33,7 +30,7 @@ function App() {
                 <Container maxWidth="xl">
                     <Toolbar>
                         <Container style={{ flex: 2, height: 100, padding: 5 }}>
-                            <img color={"#fffffff"} height={"100%"} src={ADLogo} />
+                            <img color={"#fffffff"} height={"100%"} src={ADLogo} alt={"Aidan Davidson"} />
                         </Container>
                         <Box sx={{ flex: 1, display: { xs: 'none', sm: 'block' } }}>
                             <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/portfolio")}>

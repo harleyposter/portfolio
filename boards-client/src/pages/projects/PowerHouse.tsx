@@ -23,11 +23,11 @@ function PowerHousePage() {
                     </Container>
                 </Container>
                 <Container style={{ backgroundColor: "#ffffff50", padding: 5, margin: 20, width: 500 }}>
-                    <img src={PHLogo} height={300} />
+                    <img src={PHLogo} height={300} alt={"Powerhouse Logo"} />
                 </Container>
                 <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-                        Made by Aidan Davidson and Maximos Dauod
+                        Made by Aidan Davidson and Maximos Daoud
                     </Container>
                 </Container>
                 <Stack width={"80%"}>

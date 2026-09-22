@@ -1,31 +1,31 @@
 import '../../App.css';
 import { Container, Stack } from '@mui/material';
-import WBLogo from '../../assets/WaveBreaker.png';
+import BGLogo from '../../assets/BlundgeonLogo2.png';
 import { Features } from '../../components/Features';
 import { theme } from '../../components/Theming';
 import { Video } from '../../components/Video';
 import { ImageDisplay } from '../../components/ImageDisplay';
 
-import WBTitle from '../../assets/WaveBreaker/WBTitle.png'
-import WBSG from '../../assets/WaveBreaker/WBShotgun.png'
-import WBAR from '../../assets/WaveBreaker/WBAR.png'
+import BGItems from '../../assets/Blundgeon/BGItems.png'
+import BGInv from '../../assets/Blundgeon/BGInventory.png'
+import BGChest from '../../assets/Blundgeon/BGChest.png'
+import BGPlayer from '../../assets/Blundgeon/BGPlayer.png'
 
-
-function WaveBreakerPage() {
+function TurnBreakPage() {
     return (
         <div className="App">
             <header className="App-header">
                 <Container style={{ width: 400, backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-                        Wave Breaker
+                        TURNBREAK
                     </Container>
                 </Container>
-                <Container style={{ backgroundColor: "#ffffff50", padding: 5, margin: 20, width: 500 }}>
-                    <img src={WBLogo} height={300} alt={"Wave Breaker Logo"} />
+                <Container style={{ backgroundColor: "#ffffff50", padding: 5, margin: 20, width: 460 }}>
+                    <img src={BGLogo} height={300} alt={"Blungeon Logo"} />
                 </Container>
                 <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-                        Made by Aidan Davidson
+                        Made by Dapper Dog Digital
                     </Container>
                 </Container>
                 <Stack width={"80%"}>
@@ -37,26 +37,24 @@ function WaveBreakerPage() {
                                     DESCRIPTION
                                 </Container>
                                 <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h5.fontSize, textAlign: "left" }}>
-                                    Wave Breaker is a thrid person shooter wave survival game.
-                                    The goal is to make it 25 waves with 5 lives, while managing your ammo.
-                                    Pick up stronger weapons, ammo, and health, all while fighting stronger and stronger enemies.
-
-                                    Try to survive as long as possible!<br /> <br /> <br /> <br />
-
+                                    Blundgeon is an odd combination of Doom 1993 and the RPG Roguelike genres, creating a fast paced FPS against other players.
+                                    Switch between boosting stats off of monsters and hunting down other players. If you can't beat them, better outrun them.
+                                    Loot from over 100 different weapons, spells, and items. Wipe everyone out in your path, or engage in stealth and build traps for your opponents.
+                                    Don't get too comfortable! One of the four biomes will be destroy every few minutes. When they are all gone, fight to the death in one last arena.
                                 </Container>
                             </Stack >
                         </ Container >
-                        <Features features={["25 escalating waves", "4 unique enemies", "3 different weapons"]} />
+                        <Features features={["Fast arena shooter movement", "4 special classes", "Crazy PvE and PvP gameplay", "Over 700 detailed sprites", "4 lobby multiplayer mayhem"]} />
 
                     </Stack>
                     <Stack direction='row' >
-                        <Video title={"Gameplay"} url={"https://youtu.be/oLd-l5KvXPw"} />
-                        <ImageDisplay title={"Screenshots"} images={[WBTitle, WBAR, WBSG]} cols={1} />
+                        <Video title={"Trailer"} url={"https://youtu.be/u5oEAMnwilE"} />
+                        <ImageDisplay title={"Screenshots"} images={[BGItems, BGInv, BGChest, BGPlayer]} cols={1} />
                     </Stack>
-                    <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "50%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
+                    <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                         <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-                            <a href="https://drive.google.com/file/d/1aUhH3iMWydPpX-AUf5626RAnq6WSgUqq/view?usp=sharing" target="_blank" rel="noreferrer" >
-                                Download the Source Code Here!
+                            <a href="https://showcase.codeday.org/project/ckpsw4i9w26966510qugzd3bo1u" target="_blank" rel="noreferrer" >
+                                Visit the CodeDay Page!
                             </a>
                         </Container>
                     </Container>
@@ -66,4 +64,4 @@ function WaveBreakerPage() {
     );
 }
 
-export default WaveBreakerPage;
+export default TurnBreakPage;

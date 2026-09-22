@@ -29,13 +29,13 @@ function About() {
 
             <Container style={{ backgroundColor: theme.palette.secondary.main + "60", flex: 10, fontSize: theme.typography.h6.fontSize, padding: 10 }}>
               <Stack>
-                <a href="https://www.linkedin.com/in/aidan-davidson-0877a21a1/" target="_blank" >
+                <a href="https://www.linkedin.com/in/aidan-davidson-0877a21a1/" target="_blank" rel="noreferrer" >
                   LinkedIn
                 </a>
-                <a href="https://harleyposter.itch.io" target="_blank" >
+                <a href="https://harleyposter.itch.io" target="_blank" rel="noreferrer" >
                   Itch.io
                 </a>
-                <a href="https://www.youtube.com/channel/UCsuseZMKy1GnPkU9Z3gEUIw" target="_blank" >
+                <a href="https://www.youtube.com/channel/UCsuseZMKy1GnPkU9Z3gEUIw" target="_blank" rel="noreferrer" >
                   Youtube
                 </a>
               </Stack>

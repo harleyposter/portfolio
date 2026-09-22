@@ -18,7 +18,7 @@ function CeValuatePage() {
                     </Container>
                 </Container>
                 <Container style={{ backgroundColor: "#ffffff50", padding: 5, margin: 20, width: 460 }}>
-                    <img src={CeVLogo} height={300} />
+                    <img src={CeVLogo} height={300} alt={"CeValuate Logo"} />
                 </Container>
                 <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>

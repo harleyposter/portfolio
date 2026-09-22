@@ -19,11 +19,11 @@ function GroundwardPage() {
                     </Container>
                 </Container>
                 <Container style={{ backgroundColor: "#ffffff50", padding: 5, margin: 20, width: 460 }}>
-                    <img src={GWLogo} height={300} />
+                    <img src={GWLogo} height={300} alt={"Groundward Logo"} />
                 </Container>
                 <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h5.fontSize }}>
-                        Made by Aidan Davidson, Dylan Mudersbach, Maximos Dauod, and Orion Evans
+                        Made by Aidan Davidson, Dylan Mudersbach, Maximos Daoud, and Orion Evans
                     </Container>
                 </Container>
                 <Stack width={"80%"}>
@@ -54,7 +54,7 @@ function GroundwardPage() {
                     </Stack>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                         <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-                            <a href="https://showcase.codeday.org/project/cklmz56h3150606411qf8p59vdrv" target="_blank" >
+                            <a href="https://showcase.codeday.org/project/cklmz56h3150606411qf8p59vdrv" target="_blank" rel="noreferrer" >
                                 Visit the CodeDay Page!
                             </a>
                         </Container>

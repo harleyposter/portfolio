@@ -1,5 +1,4 @@
 import { Container, ImageList, ImageListItem, Stack } from "@mui/material";
-import { useNavigate } from 'react-router-dom';
 import { theme } from "./Theming";
 
 
@@ -11,8 +10,6 @@ export interface DisplayProps {
 
 
 export function ImageDisplay(props: DisplayProps) {
-    const navigate = useNavigate();
-
     return (
 
         <Container style={{ flex: 1, backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>

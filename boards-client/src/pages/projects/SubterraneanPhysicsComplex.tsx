@@ -22,7 +22,7 @@ function STPCPage() {
                     </Container>
                 </Container>
                 <Container style={{ backgroundColor: "#ffffff50", padding: 5, margin: 20, width: 310 }}>
-                    <img src={STPCLogo} height={300} />
+                    <img src={STPCLogo} height={300} alt={"Subterranean Physics Complex Logo"} />
                 </Container>
                 <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
@@ -55,7 +55,7 @@ function STPCPage() {
                     </Stack>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                         <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-                            <a href="https://harleyposter.itch.io/subterranean-physics-complex" target="_blank" >
+                            <a href="https://harleyposter.itch.io/subterranean-physics-complex" target="_blank" rel="noreferrer" >
                                 Visit the Itch.io Page!
                             </a>
                         </Container>

@@ -22,7 +22,6 @@ export interface ProjectProps {
   status: string,
 }
 
-
 // Projects 
 
 export const SpaceMerchant = () => {
@@ -150,7 +149,7 @@ export function Project(props: ProjectProps) {
           <Container >
             <Stack style={{ margin: 10 }} direction={"row"}>
               <Container style={{ height: 200, flex: 1, flexDirection: "row", backgroundColor: "#ffffff50", padding: 5 }}>
-                <img height={"100%"} src={props.image} />
+                <img height={"100%"} src={props.image} alt={props.title + " Logo"} />
               </Container>
               <Container style={{ flex: 10, flexDirection: "row", textAlign: "left", fontSize: theme.typography.h5.fontSize, padding: 10 }}>
                 {props.desc}
