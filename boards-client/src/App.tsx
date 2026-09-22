@@ -17,6 +17,7 @@ import GroundwardPage from './pages/projects/Groundward';
 import UE2DToolPage from './pages/projects/UE2DTool';
 import GemScapePage from './pages/projects/GemScape';
 import WaveBreakerPage from './pages/projects/WaveBreaker';
+import TurnBreakPage from './pages/projects/TurnBreak';
 
 
 
@@ -66,6 +67,7 @@ function App() {
                 <Route path="/portfolio/SIP" element={<UE2DToolPage />} />
                 <Route path="/portfolio/About" element={<About />} />
 
+                <Route path="/portfolio/TurnBreak" element={<TurnBreakPage />} />
                 <Route path="/portfolio/SpaceMerchant" element={<SpaceMerchantPage />} />
                 <Route path="/portfolio/PowerHouse" element={<PowerHousePage />} />
                 <Route path="/portfolio/SubTerraneanPhysicsComplex" element={<STPCPage />} />
@@ -78,7 +80,7 @@ function App() {
 
 
             </Routes>
-            <footer >@2024 Aidan Davidson All Rights Reserved</footer>
+            <footer > @2026 Aidan Davidson All Rights Reserved</footer>
         </ThemeProvider >
 
     )

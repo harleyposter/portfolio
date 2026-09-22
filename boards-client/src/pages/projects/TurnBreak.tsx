@@ -1,15 +1,17 @@
 import '../../App.css';
 import { Container, Stack } from '@mui/material';
-import BGLogo from '../../assets/BlundgeonLogo2.png';
 import { Features } from '../../components/Features';
 import { theme } from '../../components/Theming';
 import { Video } from '../../components/Video';
 import { ImageDisplay } from '../../components/ImageDisplay';
 
-import BGItems from '../../assets/Blundgeon/BGItems.png'
-import BGInv from '../../assets/Blundgeon/BGInventory.png'
-import BGChest from '../../assets/Blundgeon/BGChest.png'
-import BGPlayer from '../../assets/Blundgeon/BGPlayer.png'
+import TBLogo from '../../assets/TurnBreakLogo.png'
+import TBCapture from '../../assets/TurnBreak/TBSS1.png'
+import TBInv from '../../assets/TurnBreak/TBSS2.png'
+import TBTurnBreak from '../../assets/TurnBreak/TBSS3.png'
+import TBSummon from '../../assets/TurnBreak/TBSS4.png'
+import TBBattle from '../../assets/TurnBreak/TBSS5.png'
+import TBResults from '../../assets/TurnBreak/TBSS6.png'
 
 function TurnBreakPage() {
     return (
@@ -20,8 +22,8 @@ function TurnBreakPage() {
                         TURNBREAK
                     </Container>
                 </Container>
-                <Container style={{ backgroundColor: "#ffffff50", padding: 5, margin: 20, width: 460 }}>
-                    <img src={BGLogo} height={300} alt={"Blungeon Logo"} />
+                <Container style={{ backgroundColor: "#ffffff50", padding: 5, margin: 20, width: 670 }}>
+                    <img src={TBLogo} height={300} alt={"Blungeon Logo"} />
                 </Container>
                 <Container style={{ backgroundColor: theme.palette.secondary.main + "60", margin: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", marginRight: 10, marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
@@ -37,24 +39,24 @@ function TurnBreakPage() {
                                     DESCRIPTION
                                 </Container>
                                 <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h5.fontSize, textAlign: "left" }}>
-                                    Blundgeon is an odd combination of Doom 1993 and the RPG Roguelike genres, creating a fast paced FPS against other players.
-                                    Switch between boosting stats off of monsters and hunting down other players. If you can't beat them, better outrun them.
-                                    Loot from over 100 different weapons, spells, and items. Wipe everyone out in your path, or engage in stealth and build traps for your opponents.
-                                    Don't get too comfortable! One of the four biomes will be destroy every few minutes. When they are all gone, fight to the death in one last arena.
+                                    TurnBreak is a fast paced Creature Collector Roguelike. Face off against opponents in a turn-based elemental rock-paper-scissors combat with buffs, debuffs, and temporary evolutions!
+                                    Discover, capture, and unlock new beasts with their own abilities. Create ever-evolving synergies with your team of unique Beasts with special ability triggers.
+                                    Grow your team further with consumable upgrades, or change out beasts to refine your strategies. Balance your team to handle different elemental regions.
+                                    Use items and cards to further tip battles in your favor. While simple to play and enjoy, TurnBreak is complex and satisfying to master.
                                 </Container>
                             </Stack >
                         </ Container >
-                        <Features features={["Fast arena shooter movement", "4 special classes", "Crazy PvE and PvP gameplay", "Over 700 detailed sprites", "4 lobby multiplayer mayhem"]} />
+                        <Features features={["70+ hand designed Beasts with special abilities", "Item management for augmenting your team", "Permanantly unlocking new beasts to start with", "Intelligent, yet fair opponent AI to employ strategy", "Online 1v1 PvP matches with friends"]} />
 
                     </Stack>
                     <Stack direction='row' >
-                        <Video title={"Trailer"} url={"https://youtu.be/u5oEAMnwilE"} />
-                        <ImageDisplay title={"Screenshots"} images={[BGItems, BGInv, BGChest, BGPlayer]} cols={1} />
+                        <Video title={"Trailer"} url={"https://www.youtube.com/watch?v=BycbJadfO1s"} />
+                        <ImageDisplay title={"Screenshots"} images={[TBTurnBreak, TBInv, TBSummon, TBCapture, TBResults, TBBattle]} cols={1} />
                     </Stack>
                     <Container style={{ backgroundColor: theme.palette.secondary.main + "60", width: "40%", marginBottom: 10, padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
                         <Container style={{ backgroundColor: theme.palette.secondary.main + "60", padding: 10, color: theme.palette.text.primary, fontFamily: theme.typography.fontFamily, fontSize: theme.typography.h4.fontSize }}>
-                            <a href="https://showcase.codeday.org/project/ckpsw4i9w26966510qugzd3bo1u" target="_blank" rel="noreferrer" >
-                                Visit the CodeDay Page!
+                            <a href="https://store.steampowered.com/app/3532720/TurnBreak/" target="_blank" rel="noreferrer" >
+                                Play now on Steam!
                             </a>
                         </Container>
                     </Container>

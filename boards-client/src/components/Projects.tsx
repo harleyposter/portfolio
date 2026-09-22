@@ -2,6 +2,7 @@ import { Button, Container, Divider, Stack, Typography } from "@mui/material";
 import { useNavigate } from 'react-router-dom';
 import { theme } from "./Theming";
 
+import TBLogo from '../assets/TurnBreakLogo.png';
 import SMLogo from '../assets/SpaceMerchantThumbnail2.png';
 import PHLogo from '../assets/PowerHouseLogo2.png';
 import STPCLogo from '../assets/STPCLogo2.png';
@@ -24,6 +25,17 @@ export interface ProjectProps {
 
 // Projects 
 
+export const TurnBreak = () => {
+  return (
+    < Project title={"TurnBreak"}
+      desc={"TurnBreak is a creature collecting roguelike game that focuses on elements and team composition. Fight battles for items and purchase/capture beasts to refine your team. Buildcraft your team from the beasts and items you find. Complete runs to be able to unlock new starting beasts and fill out the bestiary. Prove yourself as a master tactician and a master TurnBreaker!"}
+      type={"PC Single/Multiplayer Game"}
+      link={"/portfolio/TurnBreak"}
+      date={"February 22, 2026"}
+      status={"Released in Early Access, In Active Development"}
+      image={TBLogo} />)
+}
+
 export const SpaceMerchant = () => {
   return (
     < Project title={"Space Merchant"}
@@ -42,7 +54,7 @@ export const PowerHouse = () => {
       type={"PC Single Player Game"}
       link={"/portfolio/PowerHouse"}
       date={"May 18, 2024"}
-      status={"Active, In Development"}
+      status={"Reworking, Paused Development"}
       image={PHLogo} />)
 }
 
@@ -53,7 +65,7 @@ export const STPC = () => {
       type={"Pc Single Player Game"}
       link={"/portfolio/SubTerraneanPhysicsComplex"}
       date={"October 27, 2020"}
-      status={"Paused, Polishing"}
+      status={"Reworking, Paused Development"}
       image={STPCLogo} />)
 }
 
@@ -64,7 +76,7 @@ export const Blundgeon = () => {
       type={"Pc Multiplayer Game"}
       link={"/portfolio/Blundgeon"}
       date={"June 12, 2021"}
-      status={"Paused, In Development"}
+      status={"Prototype, Paused Development"}
       image={BGLogo} />)
 }
 
@@ -75,7 +87,7 @@ export const CeValuate = () => {
       type={"Web Application"}
       link={"/portfolio/CeValuate"}
       date={"November 16, 2024"}
-      status={"Active, In Development"}
+      status={"Final Steps, In Active Development"}
       image={CVLogo} />)
 }
 
@@ -86,7 +98,7 @@ export const GroundWard = () => {
       type={"PC Single Player Game"}
       link={"/portfolio/Groundward"}
       date={"February 28, 2021"}
-      status={"Paused, In Development"}
+      status={"Prototype, Paused Development"}
       image={GWLogo} />)
 }
 
@@ -97,7 +109,7 @@ export const UE2DCollisionTool = () => {
       type={"Unreal Engine 5 Addon"}
       link={"/portfolio/UE2DTool"}
       date={"November 20, 2024"}
-      status={"Active, In Development"}
+      status={"Beta, Paused Development"}
       image={UE2DCTLogo} />)
 }
 
@@ -108,7 +120,7 @@ export const GemScape = () => {
       type={"PC Single Player Game"}
       link={"/portfolio/Gemscape"}
       date={"December 3, 2023"}
-      status={"Finished"}
+      status={"Prototype, Paused Development"}
       image={GSLogo} />)
 }
 
@@ -119,7 +131,7 @@ export const WaveBreaker = () => {
       type={"PC Single Player Game"}
       link={"/portfolio/WaveBreaker"}
       date={"December 18, 2024"}
-      status={"Alpha"}
+      status={"Alpha, Paused Development"}
       image={WBLogo} />
   )
 }

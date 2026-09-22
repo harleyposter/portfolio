@@ -43,8 +43,8 @@ function PowerHousePage() {
                                     Explore the hazardous home of your father. Explore his Laboratory in the middle of the lake!
                                     Traverse the lakebed fighting off strange marine life. Borrow his high tech equipment to blast through his security systems!
                                     Launch plasma bolts and long rails from your power glove. Block attacks or grapple with the umbrella.
-                                    Fight corrupted machines as bosses to release the lockdown! Reboot the critical systems to reach the reactor
-                                    "Repair" the reactor to restart the power and rescue your father. Then make it out alive!
+                                    Fight corrupted machines as bosses to release the lockdown! Reboot the critical systems to reach the reactor.
+                                    Repair the reactor to restart the power and rescue your father.
                                 </Container>
                             </Stack >
                         </ Container >
