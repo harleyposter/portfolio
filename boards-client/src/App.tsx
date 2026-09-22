@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import { AppBar, Box, Button, Container, ThemeProvider, Toolbar, Typography } from '@mui/material';
@@ -34,17 +34,17 @@ function App() {
                             <img color={"#fffffff"} height={"100%"} src={ADLogo} alt={"Aidan Davidson"} />
                         </Container>
                         <Box sx={{ flex: 1, display: { xs: 'none', sm: 'block' } }}>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/portfolio")}>
+                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/")}>
                                 <Typography variant="h6" color="white" component="div">
                                     Projects
                                 </Typography>
                             </Button>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/portfolio/SIP")}>
+                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/SIP")}>
                                 <Typography variant="h6" color="white" component="div">
                                     SIP
                                 </Typography>
                             </Button>
-                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/portfolio/About")}>
+                            <Button style={{ margin: 2, flex: 2, backgroundColor: "#ff0000aa" }} variant={"text"} onClick={() => navigate("/About")}>
                                 <Typography variant="h6" color="white" component="div">
                                     About Me
                                 </Typography>
@@ -63,21 +63,22 @@ function App() {
 
 
             <Routes>
-                <Route path="/portfolio" element={<Home />} />
-                <Route path="/portfolio/SIP" element={<UE2DToolPage />} />
-                <Route path="/portfolio/About" element={<About />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/SIP" element={<UE2DToolPage />} />
+                <Route path="/About" element={<About />} />
 
-                <Route path="/portfolio/TurnBreak" element={<TurnBreakPage />} />
-                <Route path="/portfolio/SpaceMerchant" element={<SpaceMerchantPage />} />
-                <Route path="/portfolio/PowerHouse" element={<PowerHousePage />} />
-                <Route path="/portfolio/SubTerraneanPhysicsComplex" element={<STPCPage />} />
-                <Route path="/portfolio/Blundgeon" element={<BlundgeonPage />} />
-                <Route path="/portfolio/CeValuate" element={<CeValuatePage />} />
-                <Route path="/portfolio/Groundward" element={<GroundwardPage />} />
-                <Route path="/portfolio/UE2DTool" element={<UE2DToolPage />} />
-                <Route path="/portfolio/GemScape" element={<GemScapePage />} />
-                <Route path="/portfolio/WaveBreaker" element={<WaveBreakerPage />} />
+                <Route path="/TurnBreak" element={<TurnBreakPage />} />
+                <Route path="/SpaceMerchant" element={<SpaceMerchantPage />} />
+                <Route path="/PowerHouse" element={<PowerHousePage />} />
+                <Route path="/SubTerraneanPhysicsComplex" element={<STPCPage />} />
+                <Route path="/Blundgeon" element={<BlundgeonPage />} />
+                <Route path="/CeValuate" element={<CeValuatePage />} />
+                <Route path="/Groundward" element={<GroundwardPage />} />
+                <Route path="/UE2DTool" element={<UE2DToolPage />} />
+                <Route path="/GemScape" element={<GemScapePage />} />
+                <Route path="/WaveBreaker" element={<WaveBreakerPage />} />
 
+                <Route path="*" element={<Navigate to="/" replace />} />
 
             </Routes>
             <footer > @2026 Aidan Davidson All Rights Reserved</footer>
