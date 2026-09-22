@@ -1,12 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Link } from 'react-router-dom';
 import '../../App.css';
 import { Container, Stack } from '@mui/material';
 import CeVLogo from '../../assets/CeValuateLogo.png';
 import { Features } from '../../components/Features';
 import { theme } from '../../components/Theming';
-import { Video } from '../../components/Video';
 import { ImageDisplay } from '../../components/ImageDisplay';
 
 import CeVMain from '../../assets/CeValuate/CeVSS.png'

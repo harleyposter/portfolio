@@ -1,8 +1,6 @@
-import React, { useState } from "react"
-import { Button, Container, Divider, ImageList, ImageListItem, Stack, Typography } from "@mui/material";
+import { Container, ImageList, ImageListItem, Stack } from "@mui/material";
 import { useNavigate } from 'react-router-dom';
 import { theme } from "./Theming";
-import internal from "stream";
 
 
 export interface DisplayProps {

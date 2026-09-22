@@ -1,7 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
 import '../App.css';
-import { Project, SpaceMerchant, PowerHouse, STPC, Blundgeon, CeValuate, GroundWard, UE2DCollisionTool, GemScape, WaveBreaker } from '../components/Project';
+import { SpaceMerchant, PowerHouse, STPC, Blundgeon, CeValuate, GroundWard, UE2DCollisionTool, GemScape, WaveBreaker } from '../components/Project';
 import { Stack } from '@mui/material';
 
 

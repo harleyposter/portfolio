@@ -1,6 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Link } from 'react-router-dom';
 import '../../App.css';
 import { Container, Stack } from '@mui/material';
 import GWLogo from '../../assets/GroundwardLogo3.png';

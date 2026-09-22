@@ -1,6 +1,4 @@
-import React from "react"
-import { Button, Container, Divider, Stack, Typography } from "@mui/material";
-import { useNavigate } from 'react-router-dom';
+import { Container, Stack } from "@mui/material";
 import ReactPlayer from "react-player";
 import { theme } from "./Theming";
 

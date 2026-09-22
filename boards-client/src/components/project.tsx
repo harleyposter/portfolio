@@ -1,4 +1,3 @@
-import React from "react"
 import { Button, Container, Divider, Stack, Typography } from "@mui/material";
 import { useNavigate } from 'react-router-dom';
 import { theme } from "./Theming";

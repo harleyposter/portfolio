@@ -1,15 +1,7 @@
-import React from "react"
-import { Button, Container, Divider, Stack, Typography } from "@mui/material";
+import { Container, Stack } from "@mui/material";
 import { useNavigate } from 'react-router-dom';
 import { theme } from "./Theming";
 
-import SMLogo from '../assets/SpaceMerchantThumbnail2.png';
-import PHLogo from '../assets/PowerHouseLogo2.png';
-import STPCLogo from '../assets/STPCLogo2.png';
-import BGLogo from '../assets/BlundgeonLogo2.png';
-import GWLogo from '../assets/GroundwardLogo3.png';
-import CVLogo from '../assets/CeValuateLogo.png'
-import UE2DCTLogo from '../assets/UE52DCollisionToolLogo.png'
 
 export interface FeaturesProps {
   features: string[]

@@ -1,8 +1,6 @@
-import React from "react"
-import { Button, Container, Divider, Stack } from "@mui/material";
+import { Container, Stack } from "@mui/material";
 import { useNavigate } from 'react-router-dom';
 import { theme } from "./Theming";
-import { Project, ProjectProps } from "./Project";
 
 interface ObjectiveProps {
   projects: JSX.Element[],
