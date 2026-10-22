@@ -49,13 +49,19 @@ function About() {
           </Container>
 
           <Container style={{ backgroundColor: theme.palette.secondary.main + "60", flex: 10, flexDirection: "row", textAlign: "left", fontSize: theme.typography.h6.fontSize, padding: 10 }}>
-            &ensp;&ensp;&ensp;My name is Aidan Davidson, and I am a graduate from UAT (University of Advancing Technology) with a degree in Game Programming.
-            I have been a Game Programmer for 8+ years, with experience in Unreal Engine, Unity, Java, React, C++, C#, SQL, and more.
-            I have been playing video games since I was young, and the effort they put in inspired me to become a game developer myself.
-            I have up dozens of projects under my belt, all in different engines, different styles, different purposes, and different languages.
-            Each and every one has been a stepping stone to get me where I am today.
-            My goal as a game developer is simple. I want to be the one to inspire others the way I was.
-            I want to give back to the industry that made me who I am today.
+            &ensp;&ensp;&ensp;Hi, I'm Aidan Davidson, a Game Programmer and proud graduate of the University of
+            Advancing Technology (UAT) with a degree in Game Programming. I've spent the
+            past eight years building games and interactive experiences using tools and
+            technologies such as Unreal Engine, Unity, C++, C#, Java, React, and SQL.
+            My journey started as a kid sitting in front of a screen, and I was amazed by the worlds, stories,
+            and experiences that video games provided. As I learned more about what goes on
+            behind the scenes, I realized I wanted to be part of bringing those worlds to life. Since then, I've worked
+            on dozens of projects of all sizes, experimenting with different engines, genres, and
+            programming languages. Every project has taught me something new and pushed me
+            closer to becoming the developer I aspire to be.
+            Today, my mission is to create games that leave a lasting impact on players. Just as
+            games inspired me to follow this path, I hope my work inspires the next generation of
+            developers and gamers.
           </Container>
         </Container>
 
@@ -69,23 +75,42 @@ function About() {
 
 
           <Container style={{ backgroundColor: theme.palette.secondary.main + "60", flex: 10, flexDirection: "row", textAlign: "left", fontSize: theme.typography.body1.fontSize, padding: 10 }}>
-            &ensp;&ensp;&ensp;The community I find myself calling home is the video game development industry. This community made me who I am today.
-            From the 20+ year veteran developers making the games I grew up on, to the newcomers bringing unbridled passion indie projects, I have you to thank for inspiring me.
-            My dream has always been to join the big companies and their massive development teams, so I can pour my heart and soul into something that made me happy.
-            The biggest dream of them all is to be a part of the team that revolutionizes what a game can truly be. To do my part in making the game development industry a better place.
-            Whether I continue to join them in the future or go find my own team in this community is up in the air, but I know I will be a part of the game industry, as much as it is a part of me.
-            My journey of growth in this space has been a long and challenging process, but for every hurdle I crossed, every project I started, every idea I implemented, I had the community to thank.
-            Everyone in our community looks out for each other, whether it be responding to threads about coding questions, or reporting bugs in software, or even just posting a guide on how to accomplish a certain task.
-            There is always someone there to help you out when you need it. And you can give back just as much as you got when it becomes your turn.
-            The video game development community grows the best when we all work together to improve.
-            In terms of reviewing, critquing, and challenging others, the video game development community has a lot of avenues. From commenting on published games, creating forums, starting discussion posts, or hosting game jam events, there are a lot of ways to participate.
-            I participated in 5 distinct Code Day Game Jams. Some of those ideas and projects are even on this site. We challenge each other to do the best we can, and make the most of our skills.
-            I even participated in a larger game jam at another school. Over the three weeks we had, my team was able to bring our vision to life, which I am still so proud of to this day.
-            That project, PowerHouse, is one of the most complete projects I have ever made. That Game Jam event gave the passion, motivation, and pressure to put our skills to the test and make something extraordinary.
-            As a community, we work with each other to become the best version of ourselves. Our goal is to make people happy. To have people enjoy their hobby.
-            To me, though. Our most important goal is to inspire others. To bring out their passion, their love, their creativity, and help them spread their vision.
-            Using what I have learned and what I have made at college, I will devote myself to bring my passion to life in my community, and make it stronger than ever.
-
+            &ensp;&ensp;&ensp;The community I proudly call home is the video game development industry. It is a
+            community that has played a major role in shaping whodd I am today. From the veteran
+            developers who created the games I grew up playing to the passionate newcomers
+            building ambitious indie projects, every member of this industry has inspired me in some
+            way.{"\n"}{"\n"}
+            My dream has always been to contribute to the games that
+            bring joy, excitement, and inspiration to players around the world. Whether that means
+            joining a large studio, collaborating with a dedicated team, or forging my own path, I
+            know that game development will always be a part of my life. More than anything, I
+            hope to create experiences that push the boundaries of what a video game can be and
+            leave a lasting impact on the industry.{"\n"}{"\n"}
+            My journey of becoming a game developer has been challenging, rewarding, and filled with
+            opportunities to learn. Every obstacle I've overcome, every project I've completed, and
+            every idea I've brought to life has been made possible through the support and
+            knowledge shared by this community. One of the things I value most about game
+            development is how people continuously help one another. Whether it's answering
+            programming questions, reporting software issues, sharing tutorials, or offering
+            feedback, there is always someone willing to lend a hand. There will be
+            countless opportunities to give a hand back and help others developers grow.
+            The game development industry thrives through collaboration, creativity, and
+            constructive feedback. Developers challenge one another to improve through forums,
+            discussions, game reviews, and events such as game jams. I have personally
+            participated in five CodeDay Game Jams, several of which resulted in projects featured
+            on this website. These Game Jams pushed me to think creatively, work under pressure,
+            and strengthen my skills as both a programmer and a teammate.{"\n"}{"\n"}
+            I also had the opportunity to participate in a larger game jam hosted by another
+            university. Over the course of three weeks, my team transformed an ambitious idea into
+            a finished project called PowerHouse, which remains one of the projects I am most
+            proud of today. The experience tested our abilities, challenged our creativity, and
+            further enforced my passion for game development.{"\n"}{"\n"}
+            The game development community is driven by a simple goal: create experiences that bring
+            people joy. For me, however, there is an even greater purpose. The most important
+            thing I could do is inspire others. I hope to one day encourage creativity and nurture the passion of others, and push them to discover what they are capable of achieving. Using the skills, knowledge,
+            and experiences I have gained throughout my education and development journey, I am
+            committed to contributing to this community, helping it grow, and inspiring the next
+            generation of creators just as others inspired me.
           </Container>
         </Container>
 

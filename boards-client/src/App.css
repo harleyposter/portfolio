@@ -36,3 +36,21 @@ footer {
 .App-link {
   color: #61dafb;
 }
+
+a {
+  color: #ffffff;
+  /* Default link color */
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ffff00;
+  /* Hover color */
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #dd9900;
+  /* Hover color */
+  text-decoration: underline;
+}
